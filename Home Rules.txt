@@ -1,14 +1,15 @@
 ﻿HR:
 	#0x - Karty strategii
 	#1x - Dyplomacja
-	#2x - Artefakty
+	#2x - Mechanika gry
 	#3x - Walka
 	#4x - Wygrana
-	#5x - Modyfikacje Ras
-	#6x -
-	#7x -
+	#5x - Jednostki
+	#6x - Dyscyplina gry
+	#7x - 
 	#8x -
 	#9x -
+	#Rx - Modyfikacje Ras
 	[x] - Reguła zawieszona  
 		* powód zawieszenia
 		
@@ -20,8 +21,8 @@
 		Gdy na karcie jest kładziony Bonus Counter najstarsze prawo jest odrzucane.
 		
 	#02: Logistic:
-		Primary Ability: Zagrywający gracz dostaje 3 Command Countery zamiast 4 i może od razu wykonać Secondary Ability.
-		Z Secondary Ability można wykupić maksymalnie 3 Command Counters.
+		Primary Ability: Zagrywający gracz dostaje 3 CC zamiast 4 i może od razu wykonać Secondary Ability.
+		Z Secondary Ability można wykupić maksymalnie 3 CC.
 		
 	[#03]: Trade III:
 		* Najmenicy wprowadzają więcej zamieszania niż urozmaicenia więc gramy z Trade II.
@@ -32,68 +33,105 @@
 		Traktaty zagrywającego gracza są niewrażliwe na Secondary Ability.
 		
 	#04: Industry:
-		0. Po wybraniu odsłaniany jest Public Objective.
-		Użycie w tej kolejności:
-		1. Odsłaniany jest Public Objective.
-		2. Gracz kontrolujący Mecatol Rex dostaje 1 Victory Point.
-		3. Zagrywający gracz może wykonać 1 Public Objective I bez spełniania jego wymogów.
-	
+		Primary Ability: dochodzi opcja c) Zagrywający gracz dostaje 1 Victory Point.
 	
 	#11: Promissory Note:
 		Możliwości oddania Promissory Note w dowolnym momencie gry, w zamian za wiążącą obietnice osoby której oddaje się Promissory Note.
+		Nie można oddać nieswojego PN komukolwiek innemu niż właścicielowi.
 		Umowy słowne które są pieczętowane Promissory Note są wiążące. Można je zerwać, ale jest za to kara - zmodyfikowany public execution.
-		* -1 VP,
-		* utrata wszystkich AC w następnym status phase'ie,
-		* połowa planet się nie odświeża w następnym status phase'ie,
-		* inicjatywę 9 w następnej rundzie,
-		* w tej i w następnej rundzie nie bierze się udziału w głosowaniach,
-		* osoba, która złamała umowę oddaje wszystkie PN.
-		* wszystkie umowy handlowe z tą osobą stają się nieważne.
+		- -1 VP,
+		- utrata wszystkich AC w następnym status phase'ie,
+		- połowa planet się nie odświeża w następnym status phase'ie,
+		- inicjatywę 9 w następnej rundzie,
+		- w tej i w następnej rundzie nie bierze się udziału w głosowaniach,
+		- osoba, która złamała umowę oddaje wszystkie PN.
+		- wszystkie umowy handlowe z tą osobą stają się nieważne.
 		
 	[#12:] Treaty:
 		* #11 zacząło spełniać rolę tych
 		Karty treaty używamy w normalnych grach.
-	
-	#21: Artefakty poza dodatkowym Victory Pointem dają też następujące bonusy:
-		Czerwony 	- Możliwość przerzucenia 1 kości na runde bitwy.
-		Żółty 		- +2 do Production Capacity w dokach.
-		Niebieski 	- Możliwość wykorzystania zasady Tactical Retreat bez płacenia Command Countera.
-		Zielony 	- W Stats Phase gracz może umieścić 1 Ground Force na dowolnej kontrolowanej przez niego planecie.
-		
+
+	#21: Upkeep fleet supply
+		Modyfikacja Status Phase:
+			e) Recive 1 Action Card and 3 Command Counters
+			f) Upkeep: Gracz musi wydać ilość Maintaince Point równą ilości CC we Fleet Supply minus 3
+				- Resource lub Influence jest wart 1 Maintaince Point,
+				- CC z dowolnego pola jest wart 3 Maintaince Point.
+			g) Return Strategy Cards
+			
 	#31: Miny są odpalane prze przeleceniu przez system. Mają -1 do wartości odpalenia.
 		Miny zawsze mają przynajmniej 10% szans na trafienie.
 	
-	
 	[#41:] Imperium Rex (Secondary Public Objective Card):
-		* weszło #42 
+		* weszło #42
 		Karta jest zawsze na końcu decku kart Public Objective.
 		
-	#42: Known Objectivs:
+	[#42]: Instant Objectivs:
 		Gra zaczyna się z odsłoniętymi 10 Public Objective Stage I, 5 Stage II, Imperium Rex (Secondary Public Objective Card) + 2 szare dla każdego gracza
 		
 		Objective może być wykonany:
-		 * tylko przez jednego gracza;
-		 * podczas Action Phase: w dowolnym momencie tury przez atywnego gracza;
-		 * podczas Status Phase: według kolejności kart strategi
+		 - tylko przez jednego gracza;
+		 - podczas Action Phase: w dowolnym momencie tury przez atywnego gracza;
+		 - podczas Status Phase: według kolejności kart strategi
 	
-	#51: L1z1x Mindnet:	
+	#43 Kończenie przed czasem
+		Jeśli gra kończy się przed czasem "one Victory Point less to win" dodaje Victory Point
+		
+	#44: Metacol control:
+		Gracz kontrolujący Metacol na koniec rundy dostaje 1 VP.
+		
+	[#44]: Artefakty poza dodatkowym Victory Pointem dają też następujące bonusy:
+		Czerwony 	- Możliwość przerzucenia 1 kości na runde bitwy.
+		Żółty 		- +2 do Production Capacity w dokach.
+		Niebieski 	- Możliwość wykorzystania zasady Tactical Retreat bez płacenia CC.
+		Zielony 	- W Stats Phase gracz może umieścić 1 Ground Force na dowolnej kontrolowanej przez niego planecie.
+	
+	#51 Destroyer:
+		Type IV Drive: Destroyery też korzystają.
+		Automated Defense Turrets: +3 zamaist +2.
+		
+	#52: Myśliwce:
+		Zajmują 2 capacity.
+		Space dock ma 6 capacity.
+	
+	#61 - Czas ruchu
+		Podczas wybierania Strategy Card, decydowania akcji w Action Phase i ruszania jednostek w Tactical Action używamy minutnika. Minutnik służy także jako dealer i resetuje go poprzedni użytkownik przed podaniem dalej. Jeśli minutnik zacznie dzwonić to wchodzi domyślna akcja.
+		Wyjątki, że minutnik jest zatrzymywany:
+			- jeśli ktoś zechce wykorzystać przedłużenie (dostępne 3 na grę, można użyć po czasie);
+			- ktoś inny wykorzysta Action Card;
+		Wyjątki, że start minutnik jest oddalony w czasie, aż gracz jest gotowy:
+			- ciągle trwa kupowanie (jednostki/technologie) z poprzedniej kolejki;
+			- ciągle trwa reagowanie na Secondary Ability poprzedniego gracza;
+		Domyślne akcje podczas:
+			- Wybierania Strategy Card:
+				+ Wybiera się kartę z najniższą liczbą;
+			- Decydowania rodzaju akcji w Action Phase:
+				+ Jeśli Strategy Action jest jeszcze dostępna to zostaje wybrana;
+				+ Jeśli Strategy Action nie jest już dostępna to Pass;
+			- 2) Movement into System w Tactical Action:
+				+ Przechodzimy do następnego punktu w Tactical Action;
+			- W grze są 3 nielimitowane czasem przerwy negocjacyjne, w których to każdy może sobie gadać do woli. Są na początku i końcu Stratagy Phase oraz na końcu Status Phase. Są to też momenty graniczne na rzucania Action Card związanych z tymi fazami.
+	
+	#R1: L1z1x Mindnet:	
 		Inheritance Systems:	Każda pominięta technologia zwiększa koszt 2. Nie tylko bezpośrednio poprzednie.
 		
-	#52: Yssaril Tribes:
+	#R2: Yssaril Tribes:
 		Na każde 7 Action Card muszą discardować 1 karte przed pociągnięciem nowych w Staus Phase.
 	
-	#53: Ghosts of Creuss:
-		Gracz nie może przelecieć przez Wormhole kontrolowany przez Ghosts i polecieć dalej.
-		Jeśli gracz przelatuje przez Wormhole kontrolowany przez Ghosts dostaje -1 do combat rolls, a Ghosty mają +1 do combat rolls.
+	#R3: Ghosts of Creuss:
+		Zamiast: Other players may not use "A" or "B" Wormholes to travel the into a system you controle.
+			- Gracz nie może przelecieć przez Wormhole "A" lub "B" kontrolowany przez Ghosts i polecieć dalej.
+			- Jeśli gracz przelatuje przez Wormhole "A" lub "B" kontrolowany przez Ghosts dostaje -1 do Combat Rolls, a Ghosty mają +1 do Combat Rolls.
 
-	#54: Winnu:
-		Każda Secondary Ability nie wymaga zapłacenia Command Conutera.
+	#R4: Winnu:
+		Zamiast: You do not need a CC to execute the Secondary of Technology.
+			- Secondary Ability nie wymaga zapłacenia CC.
 		Podczas głosowania wszystkie zużyte planety dają połowę swojego influence'a, sumuje się wszystkie zużyte planety i zaokrągla w górę do 1 influence'a.
 		
-	#55: Emirates of Hacan:
+	#R5: Emirates of Hacan:
 		Quantum Datahub Node[Koszt: 6]: W czasie handlu używają swojej wartości handlu [3].
 		
-	#56: The Necro Virus
+	#R6: The Necro Virus
 		Tracą możliwość przejmowania wrogich technologii rasowych.
 		Mogą wykupić technologię rasową zamiast powielania techonolgii innej rasy, muszą dopłacić odpowiednią ilość resources.
 		Otrzymują 2 technologie rasowe:
