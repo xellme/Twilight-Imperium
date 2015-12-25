@@ -55,7 +55,8 @@
 		Modyfikacja Status Phase:
 			e) Recive 1 Action Card and 3 Command Counters
 			f) Upkeep: Gracz musi wydać ilość Maintaince Point równą ilości CC we Fleet Supply minus 3
-				- Resource lub Influence jest wart 1 Maintaince Point,
+				- Resource jest wart 0.5 Maintaince Point,
+				- Influence jest wart 1 Maintaince Point,
 				- CC z dowolnego pola jest wart 3 Maintaince Point.
 			g) Return Strategy Cards
 			
@@ -66,13 +67,13 @@
 		* weszło #42
 		Karta jest zawsze na końcu decku kart Public Objective.
 		
-	[#42]: Instant Objectivs:
-		Gra zaczyna się z odsłoniętymi 10 Public Objective Stage I, 5 Stage II, Imperium Rex (Secondary Public Objective Card) + 2 szare dla każdego gracza
+	#42:  Age of Empire + Not so Secrete Objectivs
+		Gra zaczyna się z odsłoniętymi 5 Public Objective Stage I, 10 Stage II oraz kartą Supremency (I control 18 planets outside my home system.).
 		
-		Objective może być wykonany:
+		Dodatkowo wykładamy Premilinary i Secrect Objectives oraz kartę *CARD_NAME* (I control all the planets in the home systems of 2 other players). Mogą być one wykonane:
 		 - tylko przez jednego gracza;
 		 - podczas Action Phase: w dowolnym momencie tury przez atywnego gracza;
-		 - podczas Status Phase: według kolejności kart strategi
+		 - podczas Status Phase: według kolejności kart strategii
 	
 	#43 Kończenie przed czasem
 		Jeśli gra kończy się przed czasem "one Victory Point less to win" dodaje Victory Point
@@ -80,7 +81,8 @@
 	#44: Metacol control:
 		Gracz kontrolujący Metacol na koniec rundy dostaje 1 VP.
 		
-	[#44]: Artefakty poza dodatkowym Victory Pointem dają też następujące bonusy:
+	[#45]: Artefakty poza dodatkowym Victory Pointem dają też następujące bonusy:
+		* Użyteczne przy scenariuszach, gdzienie gra się na VP.
 		Czerwony 	- Możliwość przerzucenia 1 kości na runde bitwy.
 		Żółty 		- +2 do Production Capacity w dokach.
 		Niebieski 	- Możliwość wykorzystania zasady Tactical Retreat bez płacenia CC.
