@@ -1,0 +1,101 @@
+﻿HR:
+	#0x - Karty strategii
+	#1x - Dyplomacja
+	#2x - Artefakty
+	#3x - Walka
+	#4x - Wygrana
+	#5x - Modyfikacje Ras
+	#6x -
+	#7x -
+	#8x -
+	#9x -
+	[x] - Reguła zawieszona  
+		* powód zawieszenia
+		
+	#01: Political II:
+		Primary Ability: Wybór zastawu praw do głosowania z 3, które są widoczne przez cały czas. Jeżeli więcej niż jedno prawo zostało wybrane, gracze przeprowadzają trzy fazy głosowania i w każdej deklarują ile głosów zużywają z puli swoich dostępnych.
+		Możliwość wyrzucenia pozostałych praw które nie były głosowane w tej turze.
+		+1 do Influence dla każdej planety w czasie głosowania.
+		+1 Action Card.
+		Gdy na karcie jest kładziony Bonus Counter najstarsze prawo jest odrzucane.
+		
+	#02: Logistic:
+		Primary Ability: Zagrywający gracz dostaje 3 Command Countery zamiast 4 i może od razu wykonać Secondary Ability.
+		Z Secondary Ability można wykupić maksymalnie 3 Command Counters.
+		
+	[#03]: Trade III:
+		* Najmenicy wprowadzają więcej zamieszania niż urozmaicenia więc gramy z Trade II.
+		Primary Ability: Najpierw następuje wypłata Trade Goods z traktatów handlowych.
+		Zamiast przeglądać Mercenaries gracz może wziąć 2 Trade Goods.
+		Następnie negocjacje handlowe, traktaty nie muszą być akceptowane przez zagrywającego gracza.
+		Gracz zagrywający Trade może za darmo skorzystać z Secondary Ability.
+		Traktaty zagrywającego gracza są niewrażliwe na Secondary Ability.
+		
+	#04: Industry:
+		0. Po wybraniu odsłaniany jest Public Objective.
+		Użycie w tej kolejności:
+		1. Odsłaniany jest Public Objective.
+		2. Gracz kontrolujący Mecatol Rex dostaje 1 Victory Point.
+		3. Zagrywający gracz może wykonać 1 Public Objective I bez spełniania jego wymogów.
+	
+	
+	#11: Promissory Note:
+		Możliwości oddania Promissory Note w dowolnym momencie gry, w zamian za wiążącą obietnice osoby której oddaje się Promissory Note.
+		Umowy słowne które są pieczętowane Promissory Note są wiążące. Można je zerwać, ale jest za to kara - zmodyfikowany public execution.
+		* -1 VP,
+		* utrata wszystkich AC w następnym status phase'ie,
+		* połowa planet się nie odświeża w następnym status phase'ie,
+		* inicjatywę 9 w następnej rundzie,
+		* w tej i w następnej rundzie nie bierze się udziału w głosowaniach,
+		* osoba, która złamała umowę oddaje wszystkie PN.
+		* wszystkie umowy handlowe z tą osobą stają się nieważne.
+		
+	[#12:] Treaty:
+		* #11 zacząło spełniać rolę tych
+		Karty treaty używamy w normalnych grach.
+	
+	#21: Artefakty poza dodatkowym Victory Pointem dają też następujące bonusy:
+		Czerwony 	- Możliwość przerzucenia 1 kości na runde bitwy.
+		Żółty 		- +2 do Production Capacity w dokach.
+		Niebieski 	- Możliwość wykorzystania zasady Tactical Retreat bez płacenia Command Countera.
+		Zielony 	- W Stats Phase gracz może umieścić 1 Ground Force na dowolnej kontrolowanej przez niego planecie.
+		
+	#31: Miny są odpalane prze przeleceniu przez system. Mają -1 do wartości odpalenia.
+		Miny zawsze mają przynajmniej 10% szans na trafienie.
+	
+	
+	[#41:] Imperium Rex (Secondary Public Objective Card):
+		* weszło #42 
+		Karta jest zawsze na końcu decku kart Public Objective.
+		
+	#42: Known Objectivs:
+		Gra zaczyna się z odsłoniętymi 10 Public Objective Stage I, 5 Stage II, Imperium Rex (Secondary Public Objective Card) + 2 szare dla każdego gracza
+		
+		Objective może być wykonany:
+		 * tylko przez jednego gracza;
+		 * podczas Action Phase: w dowolnym momencie tury przez atywnego gracza;
+		 * podczas Status Phase: według kolejności kart strategi
+	
+	#51: L1z1x Mindnet:	
+		Inheritance Systems:	Każda pominięta technologia zwiększa koszt 2. Nie tylko bezpośrednio poprzednie.
+		
+	#52: Yssaril Tribes:
+		Na każde 7 Action Card muszą discardować 1 karte przed pociągnięciem nowych w Staus Phase.
+	
+	#53: Ghosts of Creuss:
+		Gracz nie może przelecieć przez Wormhole kontrolowany przez Ghosts i polecieć dalej.
+		Jeśli gracz przelatuje przez Wormhole kontrolowany przez Ghosts dostaje -1 do combat rolls, a Ghosty mają +1 do combat rolls.
+
+	#54: Winnu:
+		Każda Secondary Ability nie wymaga zapłacenia Command Conutera.
+		Podczas głosowania wszystkie zużyte planety dają połowę swojego influence'a, sumuje się wszystkie zużyte planety i zaokrągla w górę do 1 influence'a.
+		
+	#55: Emirates of Hacan:
+		Quantum Datahub Node[Koszt: 6]: W czasie handlu używają swojej wartości handlu [3].
+		
+	#56: The Necro Virus
+		Tracą możliwość przejmowania wrogich technologii rasowych.
+		Mogą wykupić technologię rasową zamiast powielania techonolgii innej rasy, muszą dopłacić odpowiednią ilość resources.
+		Otrzymują 2 technologie rasowe:
+		- Scrap tanks [Koszt: 4] - Po podbiciu planety za 1 resource lub złomowanie istniejącego czołgu mogą od razu dostać na niej czołg.
+		- Anti-orbital cannons [Koszt: 4] - Czołgi działają jak PDS z trafieniem na 8+. Czołgi nie korzystają z technologii modyfikujących rzuty dla PDS.
