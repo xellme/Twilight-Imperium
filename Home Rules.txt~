@@ -127,10 +127,15 @@
 
 	#R4: Winnu:
 		Zamiast: You do not need a CC to execute the Secondary of Technology.
+			- Secondary Ability nie wymaga zapłacenia CC.
 		Podczas głosowania wszystkie zużyte planety dają połowę swojego influence'a, sumuje się wszystkie zużyte planety i zaokrągla w górę do 1 influence'a.
 		
 	#R5: Emirates of Hacan:
-		Quantum Datahub Node[Koszt: 2]: W czasie handlu używają swojej wartości handlu [3].
+		Quantum Datahub Node[Koszt: 6]: W czasie handlu używają swojej wartości handlu [3].
 		
 	#R6: The Necro Virus
-		Przejmują Technologie rasowe z pośród tych ras, które nie grają. Każdy z graczy wybierając swoją rasę wybiera także rasę od której wirusy nie mogą kopiować technologi. W effekcie wirusy nie mogą kopiować technologii od (liczba_graczy - 1) * 2 ras.
+		Tracą możliwość przejmowania wrogich technologii rasowych.
+		Mogą wykupić technologię rasową zamiast powielania techonolgii innej rasy, muszą dopłacić odpowiednią ilość resources.
+		Otrzymują 2 technologie rasowe:
+		- Scrap tanks [Koszt: 4] - Po podbiciu planety za 1 resource lub złomowanie istniejącego czołgu mogą od razu dostać na niej czołg.
+		- Anti-orbital cannons [Koszt: 4] - Czołgi działają jak PDS z trafieniem na 8+. Czołgi nie korzystają z technologii modyfikujących rzuty dla PDS.
