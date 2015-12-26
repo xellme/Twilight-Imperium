@@ -1,4 +1,4 @@
-﻿HR:
+HR:
 	#0x - Karty strategii
 	#1x - Dyplomacja
 	#2x - Mechanika gry
@@ -6,7 +6,7 @@
 	#4x - Wygrana
 	#5x - Jednostki
 	#6x - Dyscyplina gry
-	#7x - 
+	#7x - Technologie
 	#8x -
 	#9x -
 	#Rx - Modyfikacje Ras
@@ -51,7 +51,7 @@
 		* #11 zacząło spełniać rolę tych
 		Karty treaty używamy w normalnych grach.
 
-	#21: Upkeep fleet supply
+	#21: Upkeep fleet supply:
 		Modyfikacja Status Phase:
 			e) Recive 1 Action Card and 3 Command Counters
 			f) Upkeep: Gracz musi wydać ilość Maintaince Point równą ilości CC we Fleet Supply minus 3
@@ -60,14 +60,18 @@
 				- CC z dowolnego pola jest wart 3 Maintaince Point.
 			g) Return Strategy Cards
 			
-	#31: Miny są odpalane prze przeleceniu przez system. Mają -1 do wartości odpalenia.
+	#22: Orbital radar:
+		Zwiad myśliwcami by podejrzeć niespodzianki na neutralnych planetach nie kosztuje ruchu.
+			
+	#31: Mines buff:  
+		Miny są odpalane prze przeleceniu przez system. Mają -1 do wartości odpalenia:
 		Miny zawsze mają przynajmniej 10% szans na trafienie.
 	
 	[#41:] Imperium Rex (Secondary Public Objective Card):
 		* weszło #42
 		Karta jest zawsze na końcu decku kart Public Objective.
 		
-	#42:  Age of Empire + Not so Secrete Objectivs
+	#42:  Age of Empire + Not so Secrete Objectivs:
 		Gra zaczyna się z odsłoniętymi 5 Public Objective Stage I, 10 Stage II oraz kartą Supremency (I control 18 planets outside my home system.).
 		
 		Dodatkowo wykładamy Premilinary i Secrect Objectives oraz kartę *CARD_NAME* (I control all the planets in the home systems of 2 other players). Mogą być one wykonane:
@@ -75,11 +79,11 @@
 		 - podczas Action Phase: w dowolnym momencie tury przez atywnego gracza;
 		 - podczas Status Phase: według kolejności kart strategii
 	
-	#43 Kończenie przed czasem
+	#43: Kończenie przed czasem:
 		Jeśli gra kończy się przed czasem "one Victory Point less to win" dodaje Victory Point
 		
 	#44: Metacol control:
-		Gracz kontrolujący Metacol na koniec rundy dostaje 1 VP.
+		Gracz kontrolujący Metacol  dostaje 1 VP podczas Status Phase.
 		
 	[#45]: Artefakty poza dodatkowym Victory Pointem dają też następujące bonusy:
 		* Użyteczne przy scenariuszach, gdzienie gra się na VP.
@@ -87,6 +91,11 @@
 		Żółty 		- +2 do Production Capacity w dokach.
 		Niebieski 	- Możliwość wykorzystania zasady Tactical Retreat bez płacenia CC.
 		Zielony 	- W Stats Phase gracz może umieścić 1 Ground Force na dowolnej kontrolowanej przez niego planecie.
+	
+	#46: Braveheart:
+		1 VP w Status Phase jeśli wygrało się bitwę w której:
+		- było się agresorem;
+		- zniszczyło okretów przeciwnika za minimum 12 resourców.
 	
 	#51 Destroyer:
 		Type IV Drive: Destroyery też korzystają.
@@ -96,7 +105,7 @@
 		Zajmują 2 capacity.
 		Space dock ma 6 capacity.
 	
-	#61 - Czas ruchu
+	#61: Czas ruchu:
 		Podczas wybierania Strategy Card, decydowania akcji w Action Phase i ruszania jednostek w Tactical Action używamy minutnika. Minutnik służy także jako dealer i resetuje go poprzedni użytkownik przed podaniem dalej. Jeśli minutnik zacznie dzwonić to wchodzi domyślna akcja.
 		Wyjątki, że minutnik jest zatrzymywany:
 			- jeśli ktoś zechce wykorzystać przedłużenie (dostępne 3 na grę, można użyć po czasie);
@@ -113,6 +122,11 @@
 			- 2) Movement into System w Tactical Action:
 				+ Przechodzimy do następnego punktu w Tactical Action;
 			- W grze są 3 nielimitowane czasem przerwy negocjacyjne, w których to każdy może sobie gadać do woli. Są na początku i końcu Stratagy Phase oraz na końcu Status Phase. Są to też momenty graniczne na rzucania Action Card związanych z tymi fazami.
+	
+	#71: Upgreaded economy:
+		Poniższe technologie nie mają żadnych wymagań oraz nie są wymaganiami do innych technologii. Jeśli były do czegoś wymagane to ich wymagania są nowym wymaganiem.
+		- Transit Diodes
+		- Integrated Economy
 	
 	#R1: L1z1x Mindnet:	
 		Inheritance Systems:	Każda pominięta technologia zwiększa koszt 2. Nie tylko bezpośrednio poprzednie.
@@ -133,7 +147,7 @@
 	#R5: Emirates of Hacan:
 		Quantum Datahub Node[Koszt: 6]: W czasie handlu używają swojej wartości handlu [3].
 		
-	#R6: The Necro Virus
+	#R6: The Necro Virus:
 		Tracą możliwość przejmowania wrogich technologii rasowych.
 		Mogą wykupić technologię rasową zamiast powielania techonolgii innej rasy, muszą dopłacić odpowiednią ilość resources.
 		Otrzymują 2 technologie rasowe:
